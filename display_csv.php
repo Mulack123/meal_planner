@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
     <title>CSV File Display</title>
     <style>
         table {
@@ -22,6 +23,22 @@
 </head>
 
 <body>
+
+    <!--Navigation bar-->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Weekly meal planner 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="currentWeek.php">Current week</a>
+            <a href="createWeek.html">Add a week</a>
+            <a href="#">Past weeks</a>
+            <a href="mealList.html">Recipes</a>
+            </div>
+        </div> 
+    </div>
 
     <table>
         <thead>

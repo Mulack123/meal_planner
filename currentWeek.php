@@ -49,8 +49,6 @@
         <input type="submit" value="Display">
     </form>
 
-    <h2>CSV File Data</h2>
-
 </body>
 
 </html>
