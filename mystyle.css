@@ -16,12 +16,35 @@ body {
     text-decoration: none;
   }
   
+  .navbar .user-button {
+    background-color: #333;
+    border: none;
+    color: #333;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar .user-button:hover {
+    background-color: inherit; 
+}
+
+.navbar .right {
+  float: right;
+  
+}
+
+
   .dropdown {
     float: left;
     overflow: hidden;
   }
   
-  .dropdown .dropbtn {
+.dropdown .dropbtn {
     font-size: 16px;  
     border: none;
     outline: none;
@@ -30,11 +53,11 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-  }
+}
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
-  }
+}
   
   .dropdown-content {
     display: none;
